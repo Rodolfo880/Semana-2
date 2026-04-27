@@ -1,3 +1,6 @@
+def separaEnteroDecimal(n : float):
+    return int(n), n - int(n)
+
 lista = [7, 3, 5, 2, 8, 3]
 print(len(lista)) # Cantidad de elementos.
 
@@ -34,3 +37,6 @@ print(f"c: {c}, d: {d}")
 a, b = b, a
 print(f"a: {a}, b: {b}")
 
+print(separaEnteroDecimal(3.9))
+
+print(1.77 in lista) #Busca un elemento en la lista f o v.
